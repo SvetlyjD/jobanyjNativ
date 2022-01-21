@@ -1,0 +1,30 @@
+.buttonLink {
+  background-color: lightseagreen;
+}
+
+.buttonSlide {
+  background-color: lightsalmon;
+  height: 30px;
+  &:hover {
+    background-color: lime;
+  }
+}
+
+.reduxLink {
+  background-color: lightgreen;
+  &:hover {
+    background-color: lime;
+  }
+}
+
+.imageBlock {
+  height: 300px;
+  width: 300px;
+}
+
+@media (max-width: 460px) {
+  .imageBlock {
+    width: 250px;
+    height: 100px;
+  }
+}
